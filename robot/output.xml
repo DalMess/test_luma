@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-01-18T16:26:21.285807" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Luma" source="C:\Users\formation\Desktop\Programmation\robot\robot\test_luma.robot">
+<test id="s1-t1" name="robotframework-testing_selenium" line="9">
+<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:21.426812" level="INFO">Opening browser 'chrome' to base url 'https://magento.softwaretestingboard.com/?ref=hackernoon.com'.</msg>
+<arg>https://magento.softwaretestingboard.com/?ref=hackernoon.com</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-18T16:26:21.426812" elapsed="3.432984"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>${SELSPEED}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-01-18T16:26:24.859796" elapsed="0.000000"/>
+</kw>
+<arg>Open Browser</arg>
+<arg>https://magento.softwaretestingboard.com/?ref=hackernoon.com</arg>
+<arg>${BROWSER}</arg>
+<arg>AND</arg>
+<arg>Set Selenium Speed</arg>
+<arg>${SELSPEED}</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="PASS" start="2024-01-18T16:26:21.426812" elapsed="3.432984"/>
+</kw>
+<kw name="open">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:24.860798" level="INFO">Opening url 'https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html'</msg>
+<arg>${element}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-01-18T16:26:24.860798" elapsed="1.104895"/>
+</kw>
+<arg>https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html</arg>
+<status status="PASS" start="2024-01-18T16:26:24.860798" elapsed="1.104895"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:25.967690" level="INFO">Clicking element 'id=option-label-size-143-item-167'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:25.966693" elapsed="0.258748"/>
+</kw>
+<arg>id=option-label-size-143-item-167</arg>
+<status status="PASS" start="2024-01-18T16:26:25.966693" elapsed="0.258748"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.234440" level="INFO">Clicking element 'id=option-label-color-93-item-57'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.234440" elapsed="0.143297"/>
+</kw>
+<arg>id=option-label-color-93-item-57</arg>
+<status status="PASS" start="2024-01-18T16:26:26.233442" elapsed="0.144295"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.377737" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li/div/div/div[3]/div/div/form/button/span'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.377737" elapsed="0.050298"/>
+</kw>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li/div/div/div[3]/div/div/form/button/span</arg>
+<status status="PASS" start="2024-01-18T16:26:26.377737" elapsed="0.050298"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.429042" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[7]/div/div/div[3]/div/div/div[2]'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.429042" elapsed="0.044208"/>
+</kw>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[7]/div/div/div[3]/div/div/div[2]</arg>
+<status status="PASS" start="2024-01-18T16:26:26.428035" elapsed="0.045215"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.474258" level="INFO">Clicking element 'id=option-label-color-93-item-58'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.474258" elapsed="0.039062"/>
+</kw>
+<arg>id=option-label-color-93-item-58</arg>
+<status status="PASS" start="2024-01-18T16:26:26.474258" elapsed="0.039062"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.514011" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[7]/div/div/div[4]/div/div/form/button/span'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.514011" elapsed="0.033869"/>
+</kw>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[7]/div/div/div[4]/div/div/form/button/span</arg>
+<status status="PASS" start="2024-01-18T16:26:26.514011" elapsed="0.033869"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.548924" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[10]/div/div/div[3]/div/div/div[5]'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.548924" elapsed="0.039192"/>
+</kw>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[10]/div/div/div[3]/div/div/div[5]</arg>
+<status status="PASS" start="2024-01-18T16:26:26.547880" elapsed="0.040236"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.589114" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[10]/div/div/div[3]/div[2]/div/div'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.589114" elapsed="0.035475"/>
+</kw>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[10]/div/div/div[3]/div[2]/div/div</arg>
+<status status="PASS" start="2024-01-18T16:26:26.589114" elapsed="0.035475"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.625611" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[10]/div/div/div[4]/div/div/form/button/span'.</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.625611" elapsed="0.035757"/>
+</kw>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[10]/div/div/div[4]/div/div/form/button/span</arg>
+<status status="PASS" start="2024-01-18T16:26:26.625611" elapsed="0.035757"/>
+</kw>
+<kw name="click">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-18T16:26:26.662369" level="INFO">Clicking element 'xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/following::span[2]'.</msg>
+<msg time="2024-01-18T16:26:26.814489" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-01-18T16:26:26.815465" level="FAIL">ElementNotInteractableException: Message: element not interactable: element has zero size
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FB672142+3514994]
+	(No symbol) [0x00007FF6FB290CE2]
+	(No symbol) [0x00007FF6FB1376AA]
+	(No symbol) [0x00007FF6FB182E34]
+	(No symbol) [0x00007FF6FB176A0F]
+	(No symbol) [0x00007FF6FB1A5FEA]
+	(No symbol) [0x00007FF6FB1763B6]
+	(No symbol) [0x00007FF6FB1A6490]
+	(No symbol) [0x00007FF6FB1C28F6]
+	(No symbol) [0x00007FF6FB1A5D93]
+	(No symbol) [0x00007FF6FB174BDC]
+	(No symbol) [0x00007FF6FB175C64]
+	GetHandleVerifier [0x00007FF6FB69E16B+3695259]
+	GetHandleVerifier [0x00007FF6FB6F6737+4057191]
+	GetHandleVerifier [0x00007FF6FB6EE4E3+4023827]
+	GetHandleVerifier [0x00007FF6FB3C04F9+689705]
+	(No symbol) [0x00007FF6FB29C048]
+	(No symbol) [0x00007FF6FB298044]
+	(No symbol) [0x00007FF6FB2981C9]
+	(No symbol) [0x00007FF6FB2888C4]
+	BaseThreadInitThunk [0x00007FFA2A1A257D+29]
+	RtlUserThreadStart [0x00007FFA2B56AA58+40]
+</msg>
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2024-01-18T16:26:26.662369" elapsed="0.156096">ElementNotInteractableException: Message: element not interactable: element has zero size
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FB672142+3514994]
+	(No symbol) [0x00007FF6FB290CE2]
+	(No symbol) [0x00007FF6FB1376AA]
+	(No symbol) [0x00007FF6FB182E34]
+	(No symbol) [0x00007FF6FB176A0F]
+	(No symbol) [0x00007FF6FB1A5FEA]
+	(No symbol) [0x00007FF6FB1763B6]
+	(No symbol) [0x00007FF6FB1A6490]
+	(No symbol) [0x00007FF6FB1C28F6]
+	(No symbol) [0x00007FF6FB1A5D93]
+	(No symbol) [0x00007FF6FB174BDC]
+	(No symbol) [0x00007FF6FB175C64]
+	GetHandleVerifier [0x00007FF6FB69E16B+3695259]
+	GetHandleVerifier [0x00007FF6FB6F6737+4057191]
+	GetHandleVerifier [0x00007FF6FB6EE4E3+4023827]
+	GetHandleVerifier [0x00007FF6FB3C04F9+689705]
+	(No symbol) [0x00007FF6FB29C048]
+	(No symbol) [0x00007FF6FB298044]
+	(No symbol) [0x00007FF6FB2981C9]
+	(No symbol) [0x00007FF6FB2888C4]
+	BaseThreadInitThunk [0x00007FFA2A1A257D+29]
+	RtlUserThreadStart [0x00007FFA2B56AA58+40]
+</status>
+</kw>
+<arg>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/following::span[2]</arg>
+<status status="FAIL" start="2024-01-18T16:26:26.662369" elapsed="0.156096">ElementNotInteractableException: Message: element not interactable: element has zero size
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FB672142+3514994]
+	(No symbol) [0x00007FF6FB290CE2]
+	(No symbol) [0x00007FF6FB1376AA]
+	(No symbol) [0x00007FF6FB182E34]
+	(No symbol) [0x00007FF6FB176A0F]
+	(No symbol) [0x00007FF6FB1A5FEA]
+	(No symbol) [0x00007FF6FB1763B6]
+	(No symbol) [0x00007FF6FB1A6490]
+	(No symbol) [0x00007FF6FB1C28F6]
+	(No symbol) [0x00007FF6FB1A5D93]
+	(No symbol) [0x00007FF6FB174BDC]
+	(No symbol) [0x00007FF6FB175C64]
+	GetHandleVerifier [0x00007FF6FB69E16B+3695259]
+	GetHandleVerifier [0x00007FF6FB6F6737+4057191]
+	GetHandleVerifier [0x00007FF6FB6EE4E3+4023827]
+	GetHandleVerifier [0x00007FF6FB3C04F9+689705]
+	(No symbol) [0x00007FF6FB29C048]
+	(No symbol) [0x00007FF6FB298044]
+	(No symbol) [0x00007FF6FB2981C9]
+	(No symbol) [0x00007FF6FB2888C4]
+	BaseThreadInitThunk [0x00007FFA2A1A257D+29]
+	RtlUserThreadStart [0x00007FFA2B56AA58+40]
+</status>
+</kw>
+<kw name="click">
+<arg>link=Remove</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.819068" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep(5)">
+<status status="NOT RUN" start="2024-01-18T16:26:26.819068" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[1]</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.819068" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=top-cart-btn-checkout</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.820091" elapsed="0.000000"/>
+</kw>
+<kw name="open">
+<arg>https://magento.softwaretestingboard.com/checkout/</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.820091" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=customer-email</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.820091" elapsed="0.000000"/>
+</kw>
+<kw name="type">
+<arg>id=customer-email</arg>
+<arg>dzad@gmail.com</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.821075" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=TT6T7IX</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.821075" elapsed="0.000000"/>
+</kw>
+<kw name="type">
+<arg>id=TT6T7IX</arg>
+<arg>dsds</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.821075" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=GI5MG6Q</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.821075" elapsed="0.000000"/>
+</kw>
+<kw name="type">
+<arg>id=GI5MG6Q</arg>
+<arg>ds</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.821075" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=SK9GIJQ</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.821075" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=O2Y59DK</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.822073" elapsed="0.000000"/>
+</kw>
+<kw name="type">
+<arg>id=O2Y59DK</arg>
+<arg>ds</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.822073" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=FMV55GV</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.822073" elapsed="0.000000"/>
+</kw>
+<kw name="type">
+<arg>id=FMV55GV</arg>
+<arg>dqsdsq</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.822073" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=DN0Y2U3</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.822073" elapsed="0.000000"/>
+</kw>
+<kw name="select">
+<arg>id=DN0Y2U3</arg>
+<arg>Alabama</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.822073" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=T901R8T</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.822073" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=T901R8T</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.823077" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=T901R8T</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.823077" elapsed="0.000000"/>
+</kw>
+<kw name="doubleClick">
+<arg>id=T901R8T</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.823077" elapsed="0.000000"/>
+</kw>
+<kw name="type">
+<arg>id=T901R8T</arg>
+<arg>12345</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.823077" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>id=BIHSMOR</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.823077" elapsed="0.000000"/>
+</kw>
+<kw name="type">
+<arg>id=BIHSMOR</arg>
+<arg>06587</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.823077" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>name=ko_unique_15</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.823077" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>xpath=//div[@id='shipping-method-buttons-container']/div/button</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.824077" elapsed="0.000000"/>
+</kw>
+<kw name="click">
+<arg>xpath=//div[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button/span</arg>
+<status status="NOT RUN" start="2024-01-18T16:26:26.824077" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-18T16:26:26.824077" elapsed="2.397784"/>
+</kw>
+<status status="FAIL" start="2024-01-18T16:26:21.425723" elapsed="7.797124">ElementNotInteractableException: Message: element not interactable: element has zero size
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FB672142+3514994]
+	(No symbol) [0x00007FF6FB290CE2]
+	(No symbol) [0x00007FF6FB1376AA]
+	(No symbol) [0x00007FF6FB182E34]
+	(No symbol) [0x00007FF6FB176A0F]
+	(No symbol) [0x00007FF6FB1A5FEA]
+	(No symbol) [0x00007FF6FB1763B6]
+	(No symbol) [0x00007FF6FB1A6490]
+	(No symbol) [0x00007FF6FB1C28F6]
+	(No symbol) [0x00007FF6FB1A5D93]
+	(No symbol) [0x00007FF6FB174BDC]
+	(No symbol) [0x00007FF6FB175C64]
+	GetHandleVerifier [0x00007FF6FB69E16B+3695259]
+	GetHandleVerifier [0x00007FF6FB6F6737+4057191]
+	GetHandleVerifier [0x00007FF6FB6EE4E3+4023827]
+	GetHandleVerifier [0x00007FF6FB3C04F9+689705]
+	(No symbol) [0x00007FF6FB29C048]
+	(No symbol) [0x00007FF6FB298044]
+	(No symbol) [0x00007FF6FB2981C9]
+	(No symbol) [0x00007FF6FB2888C4]
+	BaseThreadInitThunk [0x00007FFA2A1A257D+29]
+	RtlUserThreadStart [0x00007FFA2B56AA58+40]
+</status>
+</test>
+<status status="FAIL" start="2024-01-18T16:26:21.287807" elapsed="7.944515"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Luma">Test Luma</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

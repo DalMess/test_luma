@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-01-19T13:45:30.268242" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot" source="C:\Users\formation\Desktop\Programmation\robot">
+<suite id="s1-s1" name="Robot" source="C:\Users\formation\Desktop\Programmation\robot\robot">
+<suite id="s1-s1-s1" name="Test Luma" source="C:\Users\formation\Desktop\Programmation\robot\robot\test_luma.robot">
+<test id="s1-s1-s1-t1" name="Luma Test" line="13">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-01-19T13:45:30.450877" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-19T13:45:30.450877" elapsed="4.565488"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-01-19T13:45:35.032995" elapsed="0.119117"/>
+</kw>
+<kw name="Login">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:35.152112" level="INFO">Opening url 'https://magento.softwaretestingboard.com/'</msg>
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-01-19T13:45:35.152112" elapsed="2.742954"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:37.897065" level="INFO">Clicking element 'link=Sign In'.</msg>
+<arg>link=Sign In</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:37.896068" elapsed="1.579482"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:39.476560" level="INFO">Typing text 'did@xx.xx' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:39.475550" elapsed="0.214205"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:39.690764" level="INFO">Typing text 'Vendredi19janvier' into text field 'id=pass'.</msg>
+<arg>id=pass</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:39.689755" elapsed="0.086945"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:39.777708" level="INFO">Clicking element 'xpath=//form[@id='login-form'][1]/fieldset/div[4]/div[1]/button/span'.</msg>
+<arg>xpath=//form[@id='login-form'][1]/fieldset/div[4]/div[1]/button/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:39.776700" elapsed="2.152425"/>
+</kw>
+<arg>${EMAIL}</arg>
+<arg>${PASSWORD}</arg>
+<doc>Test du formule de connexion</doc>
+<status status="PASS" start="2024-01-19T13:45:35.152112" elapsed="6.778022"/>
+</kw>
+<kw name="Navigate to Subsubmenu">
+<kw name="Mouse Over" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:41.932135" level="INFO">Simulating Mouse Over on element 'xpath=//nav[@class='navigation'][1]/ul/li[3]/a/span'.</msg>
+<arg>xpath=//nav[@class='navigation'][1]/ul/li[3]/a/span</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:41.931135" elapsed="0.319670"/>
+</kw>
+<kw name="Mouse Over" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:42.250805" level="INFO">Simulating Mouse Over on element 'xpath=//ul[@class='level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all']/li[@class='level1 nav-3-1 category-item first parent ui-menu-item'][1]/a/span[2]'.</msg>
+<arg>xpath=//ul[@class='level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all']/li[@class='level1 nav-3-1 category-item first parent ui-menu-item'][1]/a/span[2]</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:42.250805" elapsed="0.313106"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:42.563911" level="INFO">Clicking element 'xpath=//ul[@class='level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded']/li[@class='level2 nav-3-1-1 category-item first ui-menu-item']/a/span[1]'.</msg>
+<arg>xpath=//ul[@class='level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded']/li[@class='level2 nav-3-1-1 category-item first ui-menu-item']/a/span[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:42.563911" elapsed="1.645332"/>
+</kw>
+<doc>Test de redirection à partir d'un dropdown</doc>
+<status status="PASS" start="2024-01-19T13:45:41.931135" elapsed="2.279116"/>
+</kw>
+<kw name="Add Items To Cart">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.211248" level="INFO">Clicking element 'id=option-label-size-143-item-169'.</msg>
+<arg>id=option-label-size-143-item-169</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.211248" elapsed="0.115384"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.327648" level="INFO">Clicking element 'id=option-label-color-93-item-50'.</msg>
+<arg>id=option-label-color-93-item-50</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.326632" elapsed="0.045870"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.372502" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li/div/div/div[3]/div/div/form/button/span'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li/div/div/div[3]/div/div/form/button/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.372502" elapsed="0.067188"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.440704" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[2]/div/div/div[4]'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[2]/div/div/div[4]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.439690" elapsed="0.063284"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.503981" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[2]/div[2]/div/div'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[2]/div[2]/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.503981" elapsed="0.049631"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.554615" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[3]/div/div/form/button/span'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[3]/div/div/form/button/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.553612" elapsed="0.066130"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.620785" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[3]/div/div/div[5]'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[3]/div/div/div[5]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.620785" elapsed="0.084912"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.706049" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[3]/div[2]/div/div'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[3]/div[2]/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.706049" elapsed="0.058454"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.765567" level="INFO">Clicking element 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[4]/div/div/form/button/span'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[4]/div/div/form/button/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.764503" elapsed="0.053786"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.818289" level="INFO">Clicking element 'xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toggle Nav'])[1]/following::a[2]'.</msg>
+<arg>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toggle Nav'])[1]/following::a[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.818289" elapsed="0.074934"/>
+</kw>
+<doc>Test d'ajout d'articles au panier</doc>
+<status status="PASS" start="2024-01-19T13:45:44.210251" elapsed="0.682972"/>
+</kw>
+<kw name="Delete Items">
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-01-19T13:45:44.895055" level="INFO">Removed tag 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li/div/div/div[3]/div/div/form/button/span'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li/div/div/div[3]/div/div/form/button/span</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.894044" elapsed="0.002014"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-01-19T13:45:44.897051" level="INFO">Removed tag 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[2]/div/div/div[4]'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[2]/div/div/div[4]</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.896058" elapsed="0.001994"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-01-19T13:45:44.900786" level="INFO">Removed tag 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[2]/div[2]/div/div'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[2]/div[2]/div/div</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.899766" elapsed="0.002029"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-01-19T13:45:44.903379" level="INFO">Removed tag 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[3]/div/div/form/button/span'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/div[3]/div/div/form/button/span</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.902367" elapsed="0.002010"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-01-19T13:45:44.905379" level="INFO">Removed tag 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[3]/div/div/div[5]'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[3]/div/div/div[5]</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.904377" elapsed="0.002003"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-01-19T13:45:44.907376" level="INFO">Removed tag 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[3]/div[2]/div/div'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[3]/div[2]/div/div</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.906380" elapsed="0.000996"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-01-19T13:45:44.909386" level="INFO">Removed tag 'xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[4]/div/div/form/button/span'.</msg>
+<arg>xpath=//main[@id='maincontent']/div[3]/div/div[4]/ol/li[6]/div/div/div[4]/div/div/form/button/span</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.908377" elapsed="0.002000"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-01-19T13:45:44.911377" level="INFO">Removed tag 'xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toggle Nav'])[1]/following::a[2]'.</msg>
+<arg>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toggle Nav'])[1]/following::a[2]</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.910377" elapsed="0.001000"/>
+</kw>
+<status status="PASS" start="2024-01-19T13:45:44.894044" elapsed="0.018339"/>
+</kw>
+<kw name="Logout">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//div[@class='panel header'][1]/ul[@class='header links']</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.913384" elapsed="0.004559"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:44.917943" level="INFO">Clicking button 'xpath=//div[@class='panel header'][1]/ul[@class='header links'][1]/li[@class='customer-welcome']/span/button'.</msg>
+<arg>xpath=//div[@class='panel header'][1]/ul[@class='header links'][1]/li[@class='customer-welcome']/span/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:44.917943" elapsed="0.099156"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-19T13:45:45.017473" level="INFO">Clicking element 'xpath=//div[@class='customer-menu']/ul/li[@class='authorization-link']/a'.</msg>
+<arg>xpath=//div[@class='customer-menu']/ul/li[@class='authorization-link']/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-19T13:45:45.017473" elapsed="2.583787"/>
+</kw>
+<doc>Test de deconnexion</doc>
+<status status="PASS" start="2024-01-19T13:45:44.912383" elapsed="2.689879"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-19T13:45:47.602262" elapsed="2.509473"/>
+</kw>
+<status status="PASS" start="2024-01-19T13:45:30.450877" elapsed="19.660858"/>
+</test>
+<status status="PASS" start="2024-01-19T13:45:30.300917" elapsed="19.810818"/>
+</suite>
+<status status="PASS" start="2024-01-19T13:45:30.292734" elapsed="19.819001"/>
+</suite>
+<status status="PASS" start="2024-01-19T13:45:30.268242" elapsed="19.843493"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot">Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Robot">Robot.Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Test Luma">Robot.Robot.Test Luma</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
